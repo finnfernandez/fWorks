@@ -1,4 +1,35 @@
 <!-- Generated template for the LoginComponent component -->
 <div>
-  {{text}}
+  <ion-row>
+    <ion-col size="12">
+      <ion-label>Usuario</ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <ion-input type="text" placeholder="usuario"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <ion-label>Clave</ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <ion-input type="password" placeholder="clave"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <button ion-button (click)="onClick()">
+        Ingresar
+      </button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <a ion-anchor href="#" color="primary">Olvidé mi clave</a>
+    </ion-col>
+  </ion-row>
 </div>
